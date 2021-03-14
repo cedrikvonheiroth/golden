@@ -1,0 +1,16 @@
+div.navbar {
+    display: flex;
+    background-color: rgb(34, 34, 34);
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.li a {
+    padding: 1rem;
+    color: rgb(238, 197, 15);
+    text-decoration: none;
+}
