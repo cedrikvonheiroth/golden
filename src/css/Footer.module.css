@@ -1,10 +1,16 @@
 .footer {
-    color: rgb(238, 197, 15);
+    color: #f6e0a4;
     background-color: rgb(34, 34, 34);
     position: absolute;
-    bottom: 0;
+    margin-top: 3rem;
+    /* bottom: 0; */
     width: 100vw;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+}
 
+.footer p {
+    padding: 0.5rem;
+    text-align: center;
+    /* display: block; */
 }
