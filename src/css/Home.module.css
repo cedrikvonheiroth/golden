@@ -16,6 +16,7 @@ div.hem h1 {
     padding: 1rem;
     text-align: center;
     color: #f6e0a4;
+    font-size: 1.6rem;
 }
 
 div.hem p {
@@ -49,7 +50,8 @@ div.socialmedia {
 }
 
 div.socialmedia h2 {
-    padding-top: 1.5rem;
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
+    font-size: 1rem;
 }
 
 div.socialmedia p {
