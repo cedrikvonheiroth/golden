@@ -22,18 +22,29 @@ function Navbar() {
                 </label>
 
                 <ul className={styles.ul} >
-                    <li className={styles.li}>
-                        <Link to="/">Hem</Link>
-                    </li>
-                    <li className={styles.li}>
-                        <Link to="/Träning">Träning</Link>
-                    </li>
-                    <li className={styles.li}>
-                        <Link to="/OmOss">Om oss</Link>
-                    </li>
-                    <li className={styles.li}>
-                        <Link to="/Kontakt">Kontakt</Link>
-                    </li>
+                    <span className={styles.hemLine}>
+                        <li className={styles.li}>
+                            <Link to="/">Hem</Link>
+                        </li>
+                    </span>
+
+                    <span className={styles.träningLine}>
+                        <li className={styles.li}>
+                            <Link to="/Träning">Träning</Link>
+                        </li>
+                    </span>
+
+                    <span className={styles.omOssLine}>
+                        <li className={styles.li}>
+                            <Link to="/OmOss">Om oss</Link>
+                        </li>
+                    </span>
+
+                    <span className={styles.kontaktLine}>               
+                        <li className={styles.li}>
+                            <Link to="/Kontakt">Kontakt</Link>
+                        </li>
+                    </span>
                 </ul>
 
             </div>
