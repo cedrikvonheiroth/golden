@@ -8,7 +8,9 @@ function Navbar() {
             <div className={styles.navbar}>
                 
                 <div className={styles.glmtLogoWrapper}>
-                    <img src={glmt} alt='golden leaf logo'/>
+                    <Link to="/">
+                        <img src={glmt} alt='golden leaf logo'/>
+                    </Link>
                 </div>
 
                 <ul className={styles.ul} >
