@@ -13,6 +13,13 @@ function Navbar() {
                     </Link>
                 </div>
 
+                <input type="checkbox" id="navToggle" className={styles.navToggle}></input>
+                <label for="navToggle" className={styles.navToggleLabel}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+
                 <ul className={styles.ul} >
                     <li className={styles.li}>
                         <Link to="/">Hem</Link>
@@ -28,11 +35,6 @@ function Navbar() {
                     </li>
                 </ul>
 
-                <div className={styles.burger}>
-                    <div className={styles.line1}></div>
-                    <div className={styles.line2}></div>
-                    <div className={styles.line3}></div>
-                </div>
             </div>
     )
 }
