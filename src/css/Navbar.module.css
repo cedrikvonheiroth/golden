@@ -7,10 +7,12 @@ div.navbar {
     height: 70px;
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .ul {
-    display: none;
+    /* display: none; */
+    display: flex;
     background-color: rgb(34, 34, 34);
     padding: 1rem;
     list-style: none;
@@ -20,6 +22,11 @@ div.navbar {
     right: 0;
     width: 100%;
     align-items: center;
+
+    z-index: 9;
+    transform: translateY(-150%);
+    opacity: 0;
+    transition: 0.75s;
 }
 
 .li {
@@ -48,7 +55,6 @@ div.glmtLogoWrapper img {
 
 .navToggleLabel {
     /* display: flex; */
-
     /* border: 1px solid red; */
     height: 100%;
     margin-right: 1.5rem;
@@ -70,4 +76,7 @@ div.glmtLogoWrapper img {
 }
 .navToggle:checked ~ ul {
     display: flex;
+    transform: translateY(0%);
+    opacity: 1;
+    
 }
