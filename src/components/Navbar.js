@@ -7,6 +7,7 @@ function Navbar() {
     return (
             <div className={styles.navbar}>
                 
+                
                 <div className={styles.glmtLogoWrapper}>
                     <Link to="/">
                         <img src={glmt} alt='golden leaf logo'/>
