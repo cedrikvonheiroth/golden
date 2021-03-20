@@ -7,14 +7,12 @@ div.navbar {
     height: 70px;
     position: sticky;
     top: 0;
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
-
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.452);
 }
 
 .ul {
     display: flex;
     background-color: rgba(34, 34, 34, 0.849);
-    /* padding: 1rem; */
     list-style: none;
     flex-direction: column;
     position: absolute;
@@ -93,8 +91,6 @@ div.glmtLogoWrapper img {
         justify-content: flex-end;
         position: absolute;
         top: 7px;
-        /* right: 1.5rem; */
-
         transform: translateY(0%);
         transition: all 0s ease-in;
         opacity: 1;
@@ -181,9 +177,6 @@ div.glmtLogoWrapper img {
           transform: scale(0,1);
     }
     
-
-
-
     .hemLine:hover:after,
     .träningLine:hover:after,
     .omOssLine:hover:after,
@@ -192,6 +185,4 @@ div.glmtLogoWrapper img {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
-
 }
