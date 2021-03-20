@@ -27,6 +27,12 @@ function Navbar() {
                         <Link to="/Kontakt">Kontakt</Link>
                     </li>
                 </ul>
+
+                <div className={styles.burger}>
+                    <div className={styles.line1}></div>
+                    <div className={styles.line2}></div>
+                    <div className={styles.line3}></div>
+                </div>
             </div>
     )
 }
