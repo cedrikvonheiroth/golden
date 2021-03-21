@@ -27,7 +27,10 @@ div.navbar {
 }
 
 .li {
+    text-align: center;
+    width: 100vw;
     padding: 1rem;
+    /* border-bottom: none; */
 }
 
 .li a {
@@ -77,6 +80,12 @@ div.glmtLogoWrapper img {
     opacity: 1;
 }
 
+.navToggle:checked ~ul > span > .li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+    transition-delay: 0.5s;
+}
+
+
 .navToggle:checked ~ ul > span > .li a {
     opacity: 1;
     transition: all 0.75s ease-in;
@@ -98,7 +107,9 @@ div.glmtLogoWrapper img {
     }
 
     .li {
+        width: auto;
         padding: 1rem 1.5rem;
+        border: none im !important;
     }
 
     .li a {
