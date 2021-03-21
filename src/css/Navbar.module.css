@@ -122,14 +122,14 @@ div.glmtLogoWrapper img {
 
     .hemLine:after {
         content: '';
-        color: #f6e0a4;
+        color: #f6e0a486;
         position: absolute;
         margin: 0rem 22px;
         top: 30px;
         display: inline-block;
         height: 1rem;
         width: 40px;
-        border-bottom: 1px solid;
+        border-bottom: 2px solid;
         opacity: 0;
           -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
           transition: opacity 0.5s, transform 0.5s;
@@ -139,14 +139,14 @@ div.glmtLogoWrapper img {
 
     .träningLine:after {
         content: '';
-        color: #f6e0a4;
+        color: #f6e0a486;
         position: absolute;
         margin: 0rem 20px;
         top: 30px;
         display: inline-block;
         height: 1rem;
         width: 80px;
-        border-bottom: 1px solid;
+        border-bottom: 2px solid;
         opacity: 0;
           -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
           transition: opacity 0.5s, transform 0.5s;
@@ -156,14 +156,14 @@ div.glmtLogoWrapper img {
 
     .omOssLine:after {
         content: '';
-        color: #f6e0a4;
+        color: #f6e0a486;
         position: absolute;
         margin: 0rem 20px;
         top: 30px;
         display: inline-block;
         height: 1rem;
         width: 73px;
-        border-bottom: 1px solid;
+        border-bottom: 2px solid;
         opacity: 0;
           -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
           transition: opacity 0.5s, transform 0.5s;
@@ -173,14 +173,14 @@ div.glmtLogoWrapper img {
 
     .kontaktLine:after {
         content: '';
-        color: #f6e0a4;
+        color: #f6e0a486;
         position: absolute;
         margin: 0rem 22px;
         top: 30px;
         display: inline-block;
         height: 1rem;
         width: 80px;
-        border-bottom: 1px solid;
+        border-bottom: 2px solid;
         opacity: 0;
           -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
           transition: opacity 0.5s, transform 0.5s;
