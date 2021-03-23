@@ -2,7 +2,8 @@ div.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(34, 34, 34);
+    background: rgb(34,33,33);
+    background: linear-gradient(180deg, rgba(34,33,33,1) 0%, rgba(64,60,60,1) 100%);
     width: 100vw;
     height: 70px;
     position: sticky;
@@ -12,7 +13,7 @@ div.navbar {
 
 .ul {
     display: flex;
-    background-color: rgba(34, 34, 34, 0.849);
+    background: linear-gradient(180deg, rgba(34, 33, 33, 0.705) 0%, rgba(64, 60, 60, 0.705) 100%);
     list-style: none;
     flex-direction: column;
     position: absolute;
@@ -94,6 +95,8 @@ div.glmtLogoWrapper img {
 
 @media screen and (min-width: 769px) {
     .ul {
+        /* background: rgb(34,33,33); */
+        background: transparent;
         display: flex;
         padding: 0rem;
         flex-direction: row;
