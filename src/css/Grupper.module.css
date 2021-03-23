@@ -1,0 +1,16 @@
+.grupper {
+    margin: 2rem;
+}
+
+h2.gruppHeader {
+    color: #f6e0a4;
+}
+
+h3.gruppHeader {
+    margin: 3rem 0rem 0.5rem 0rem;
+    color: #f6e0a4;
+}
+
+p.gruppDesc {
+    line-height: 2;
+}
