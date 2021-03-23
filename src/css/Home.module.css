@@ -25,19 +25,28 @@ div.hem p {
     line-height: 1.5;
 }
 
-.facebookLogoWrapper {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin: 1rem;
-}
-
+.facebookLogoWrapper,
 .instagramLogoWrapper {
     display: inline-block;
     height: 50px;
     width: 50px;
     margin: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
 }
+
+.facebookLogoWrapper:hover,
+.instagramLogoWrapper:hover {
+    opacity: 1.0;
+    transform: translateY(-4px);
+}
+
+/* .instagramLogoWrapper {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 1rem;
+} */
 
 img {
     max-width: 100%;
