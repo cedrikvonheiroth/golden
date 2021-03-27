@@ -3,6 +3,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hem from './pages/Hem';
 import Träning from './pages/Träning';
+import Priser from './pages/Priser';
+import Schema from './pages/Schema';
 import OmOss from './pages/OmOss';
 import Kontakt from './pages/Kontakt';
 import Footer from './components/Footer';
@@ -18,8 +20,10 @@ function App() {
         
         <Switch>
           <Route path="/" component={Hem} exact/>
-          <Route path="/OmOss" component={OmOss} />
           <Route path="/träning" component={Träning} />
+          <Route path="/Priser" component={Priser} />
+          <Route path="/Schema" component={Schema} />
+          <Route path="/OmOss" component={OmOss} />
           <Route path="/kontakt" component={Kontakt} />
         </Switch>
 
