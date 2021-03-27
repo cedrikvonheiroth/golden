@@ -2,13 +2,14 @@ import React from 'react'
 import styles from '../css/Home.module.css'
 import goldFacebookLogo from '../icons/facebook-gold.svg'
 import goldInstagramLogo from '../icons/instagram-gold.svg'
+import Hero from '../components/Hero'
 
 
 
 function Hem() {
     return (
         <div className={styles.hem} >
-            <div className={styles.hero}></div>
+            <Hero />
             <h1>Golden Leaf Muay Thai</h1>
             <p>På Golden Leaf strävar vi efter att skapa en miljö där såväl nybörjare som veteraner känner sig välkomna. Vi har erfarna tränare som alla är eller har varit aktiva fighters och vi har en god stämning som innebär att alla hjälper varandra att utvecklas. Oavsett om din målsättning är att bli världsmästare eller om du vill komma i form och träna för skojs skull är du välkommen till Golden Leaf!</p>
 

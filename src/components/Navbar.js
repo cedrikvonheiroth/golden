@@ -34,6 +34,18 @@ function Navbar() {
                         </li>
                     </span>
 
+                    <span className={styles.priserLine}>
+                        <li className={styles.li}>
+                            <Link to="/Priser">Priser</Link>
+                        </li>
+                    </span>
+
+                    <span className={styles.schemaLine}>
+                        <li className={styles.li}>
+                            <Link to="/Schema">Schema</Link>
+                        </li>
+                    </span>
+
                     <span className={styles.omOssLine}>
                         <li className={styles.li}>
                             <Link to="/OmOss">Om oss</Link>

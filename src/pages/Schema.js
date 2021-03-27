@@ -1,13 +1,12 @@
 import React from 'react'
 import Hero from '../components/Hero'
 
-function OmOss() {
+
+export default function Schema() {
     return (
         <div>
             <Hero />
-            <h1>Om oss</h1>
+            <h2>Schema</h2>
         </div>
     )
 }
-
-export default OmOss;
