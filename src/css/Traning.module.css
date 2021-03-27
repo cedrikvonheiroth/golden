@@ -1,0 +1,23 @@
+.traning h1 {
+    text-align: center;
+    margin: 2rem 0rem 0rem 0rem;
+    color: #f6e0a4;
+}
+
+.desc {
+    margin: 1rem 2rem 0rem 2rem;
+    line-height: 2;
+}
+
+.video {
+    margin-top: 2rem;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+h3.videoHeader {
+    text-align: center;
+    margin-top: 5rem;
+    color: #f6e0a4;
+}

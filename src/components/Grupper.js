@@ -5,7 +5,7 @@ export default function Grupper() {
     return (
         <div className={styles.grupper}>
             <h2 className={styles.gruppHeader}>Träningsgrupper</h2>
-            <p className={styles.gruppDesc}>Nedan beskrivs de olika träningsgrupperna vi har på Golden Leaf. Vi kan även erbjuda privatträning för företag eller enskilda personer. För mer information om privatträning kontakta oss via mail eller sociala medier.</p>
+            <p className={styles.gruppDesc}>Nedan beskrivs de olika träningsgrupperna vi erbjuder. Vi kan även erbjuda privatträning för företag eller enskilda personer/grupper. För mer information om privatträning kontakta oss via mail eller sociala medier.</p>
 
             <h3 className={styles.gruppHeader}>Barngrupp 8 - 12 år</h3>
             <p className={styles.gruppDesc}>Träningsgruppen för våra yngsta medlemmar! Barngruppen tränar varje söndag kl 11:00 - 12:00 och träningarna leds av våra fighters Moses och Sara. Dessa passen fokuserar på träningsglädje och rörelse samtidigt som barnen får lära sig de tekniska grunderna i thaiboxning. </p>
