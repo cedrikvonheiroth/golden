@@ -3,6 +3,7 @@ import styles from '../css/Footer.module.css'
 import goldFacebookLogo from '../icons/facebook-gold.svg'
 import goldInstagramLogo from '../icons/instagram-gold.svg'
 
+
 function Footer() {
     return (
         <div className={styles.footer} >
