@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '../css/Footer.module.css'
 import goldFacebookLogo from '../icons/facebook-gold.svg'
 import goldInstagramLogo from '../icons/instagram-gold.svg'
+import emailLogo from '../icons/email-gold.png'
+import locationLogo from '../icons/location-gold.png'
 
 
 function Footer() {
@@ -23,9 +25,21 @@ function Footer() {
                 </div><span className={styles.spanLink}>Goldenleafmt</span></a>
             </div>
 
+            <div className={styles.linkWrapper}>
+                <a href='https://www.gmail.com' target="_blank" rel="noreferrer"><div className={styles.emailLogoWrapper} >
+                    <img src={emailLogo} alt='email' />
+                </div><span className={styles.spanLink}>golden.leaf.muay.thai@hotmail.com</span></a>
+            </div>
 
-            <p>golden.leaf.muay.thai@hotmail.com</p>
-            <p>Nobelvägen 17C, 214 29 Malmö </p>
+            <div className={styles.linkWrapper}>
+                <a href='https://goo.gl/maps/aEuZfFqD1CHVWGcf6' target="_blank" rel="noreferrer"><div className={styles.locationLogoWrapper} >
+                    <img src={locationLogo} alt='email' />
+                </div><span className={styles.spanLink}>Nobelvägen 17C, 214 29 Malmö</span></a>
+            </div>
+
+
+            {/* <p>golden.leaf.muay.thai@hotmail.com</p> */}
+            
             <p className={styles.copyright}>Golden Leaf Muay Thai ©2021 </p>
         </div>
     )
