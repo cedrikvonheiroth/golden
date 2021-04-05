@@ -10,8 +10,6 @@ function Footer() {
     return (
         <div className={styles.footer} >
             
-            
-
 
             <div className={styles.linkWrapper}>
                 <a href='https://www.facebook.com/GoldenLeafMuayThai' target="_blank" rel="noreferrer"><div className={styles.facebookLogoWrapper} >
@@ -26,7 +24,7 @@ function Footer() {
             </div>
 
             <div className={styles.linkWrapper}>
-                <a href='https://www.gmail.com' target="_blank" rel="noreferrer"><div className={styles.emailLogoWrapper} >
+                <a href='mailto:golden.leaf.muay.thai@hotmail.com'><div className={styles.emailLogoWrapper} >
                     <img src={emailLogo} alt='email' />
                 </div><span className={styles.spanLink}>golden.leaf.muay.thai@hotmail.com</span></a>
             </div>
@@ -36,9 +34,6 @@ function Footer() {
                     <img src={locationLogo} alt='email' />
                 </div><span className={styles.spanLink}>Nobelvägen 17C, 214 29 Malmö</span></a>
             </div>
-
-
-            {/* <p>golden.leaf.muay.thai@hotmail.com</p> */}
             
             <p className={styles.copyright}>Golden Leaf Muay Thai ©2021 </p>
         </div>
