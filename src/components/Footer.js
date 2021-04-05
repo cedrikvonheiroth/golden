@@ -1,14 +1,41 @@
 import React from 'react'
 import styles from '../css/Footer.module.css'
+import goldFacebookLogo from '../icons/facebook-gold.svg'
+import goldInstagramLogo from '../icons/instagram-gold.svg'
+import emailLogo from '../icons/email-gold.png'
+import locationLogo from '../icons/location-gold.png'
+
 
 function Footer() {
     return (
         <div className={styles.footer} >
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>E-mail</p>
-            <p>Nobelvägen 17C, 214 29 Malmö </p>
-            <p>Golden Leaf Muay Thai ©2021 </p>
+            
+
+            <div className={styles.linkWrapper}>
+                <a href='https://www.facebook.com/GoldenLeafMuayThai' target="_blank" rel="noreferrer"><div className={styles.facebookLogoWrapper} >
+                    <img src={goldFacebookLogo} alt='facebook' /> 
+                </div><span className={styles.spanLink}>Golden Leaf Muay Thai</span></a>
+            </div>
+
+            <div className={styles.linkWrapper}>
+                <a href='https://www.instagram.com/goldenleafmt' target="_blank" rel="noreferrer"><div className={styles.instagramLogoWrapper} >
+                    <img src={goldInstagramLogo} alt='instagram' />
+                </div><span className={styles.spanLink}>Goldenleafmt</span></a>
+            </div>
+
+            <div className={styles.linkWrapper}>
+                <a href='mailto:golden.leaf.muay.thai@hotmail.com'><div className={styles.emailLogoWrapper} >
+                    <img src={emailLogo} alt='email' />
+                </div><span className={styles.spanLink}>golden.leaf.muay.thai@hotmail.com</span></a>
+            </div>
+
+            <div className={styles.linkWrapper}>
+                <a href='https://goo.gl/maps/aEuZfFqD1CHVWGcf6' target="_blank" rel="noreferrer"><div className={styles.locationLogoWrapper} >
+                    <img src={locationLogo} alt='email' />
+                </div><span className={styles.spanLink}>Nobelvägen 17C, 214 29 Malmö</span></a>
+            </div>
+            
+            <p className={styles.copyright}>Golden Leaf Muay Thai ©2021 </p>
         </div>
     )
 }
