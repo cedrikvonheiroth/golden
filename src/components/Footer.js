@@ -35,7 +35,7 @@ function Footer() {
                 </div><span className={styles.spanLink}>Nobelvägen 17C, 214 29 Malmö</span></a>
             </div>
             
-            <p className={styles.copyright}>Golden Leaf Muay Thai ©2021 </p>
+            <p className={styles.copyright}>Golden Leaf Muay Thai © 2021 </p>
         </div>
     )
 }
